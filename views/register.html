@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <p>
+        <h1 class="details-text">Provide your Details Here</h1>
+    </p>
+    <main class="registerMain-content">
+        <div class="form-wrapper">
+            <form id="registrationForm" class="form-content">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="F00ID">F00ID:</label>
+                <input type="text" id="F00ID" name="F00ID" required>
+
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" required>
+                
+                <label for="modeOfStudy">Mode of Study:</label>
+                <select id="modeOfStudy" name="modeOfStudy" required>
+                    <option value="hybrid">Hybrid</option>
+                    <option value="online">Online</option>
+                    <option value="offline">Offline</option>
+                </select>
+
+                <label for="CGPA">CGPA:</label>
+                <input type="number" step="0.01" id="CGPA" name="CGPA" max="4" required>
+                
+                <label for="workExperience">Work Experience (years):</label>
+                <input type="number" id="workExperience" name="workExperience" required>
+
+                <label for="field">Field:</label>
+                <select id="field" name="field" required>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Pharmacy">Pharmacy</option>
+                    <option value="Nursing">Nursing</option>
+                    <option value="Psychology">Psychology</option>
+                </select>
+                
+                <button type="submit" class="btn blue-btn">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

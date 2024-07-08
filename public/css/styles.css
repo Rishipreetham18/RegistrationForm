@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background: url('Concordia.jpg') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.hcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(3, 75, 123);
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(80vh - 300px);
+}
+.registerMain-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(150vh - 300px);
+}
+
+.form-wrapper {
+    margin-top: 40px; /* Add some space below the title */
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #084585;
+}
+
+.results-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button, a.btn {
+    background-color: #0b3d72; /* Blue color */
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px; /* Adjust width as needed */
+}
+
+button:hover, a.btn:hover {
+    background-color: #084585;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.details-text {
+    background-size: cover;
+    padding: 50px 40px;
+    height: calc(40vh - 200px);
+    background-color: rgb(3, 75, 123);
+    color: #ffffff; /* white color */
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "merndev",
+  "version": "1.0.0",
+  "description": "Registration form",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Rishi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
